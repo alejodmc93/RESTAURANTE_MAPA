@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:weightSum="1">
+<com.google.android.gms.maps.MapView
+
+    android:id="@+id/mapView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    </com.google.android.gms.maps.MapView>
+
+</LinearLayout><!-- From: file:/C:/Users/Alejandro/Desktop/login-2015-11-11%20(1)/login/login1.2/app/src/main/res/layout/fm_mapa.xml -->

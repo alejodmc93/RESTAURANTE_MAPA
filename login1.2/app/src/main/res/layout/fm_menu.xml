@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:nestedScrollingEnabled="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_weight="0.08">
+
+        TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="MENÙ"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_weight="0.09">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:text="Ceviche de Camaron o Mixto Grande"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="1.11" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="S/ 75.00"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_weight="0.14">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="225dp"
+            android:layout_height="match_parent"
+            android:text="Ceviche de Camaron o Mixto Grande"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="0.89" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="S/ 40.00"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ceviche"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="1.01" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:text="S/ 25.00"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:weightSum="1"
+        android:layout_weight="0.06">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lomo Saltado"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="1.05" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="S/ 17.00"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_weight="0.06"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aji de Gallina"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="1.06" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="S/ 12.00"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carapulcra"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="1.03" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="S/ 9.00"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+</LinearLayout>
